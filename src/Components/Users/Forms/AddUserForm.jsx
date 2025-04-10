@@ -84,7 +84,7 @@ export const AddUserForm =({id, })=> {
       <input name="username" value={formData.username} onChange={handleChange} required />
 
       <label>Company</label>
-      <input name="company" value={formData.company} onChange={handleChange} required />
+      <input name="company" value={ formData?.company?.name || formData?.company} onChange={handleChange} required />
 
       <label>Website</label>
       <input name="website" value={formData.website} onChange={handleChange} required />
