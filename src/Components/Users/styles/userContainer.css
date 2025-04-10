@@ -1,0 +1,25 @@
+.user-container{
+    padding-inline: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    height: fit-content;
+}
+.search-button-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media screen and (max-width: 500px){
+    .search-button-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    };
+    .user-container{
+        margin-top: 20px;
+        display: flex;
+    }
+}

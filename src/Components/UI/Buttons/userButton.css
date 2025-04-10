@@ -1,0 +1,8 @@
+.user-button{
+    height: fit-content;
+    max-height: 100px;
+    min-height: 35px;
+    padding-top: 50px;
+    font-weight: 600;
+    max-width: 150px;
+}
